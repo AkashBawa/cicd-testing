@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let mongoDB = ;
+let mongoDB = process.env.DB_URL;
 
 ////EXAMPLE////
 // Make sure to create .env file and use an environment variable
